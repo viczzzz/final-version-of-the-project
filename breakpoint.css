@@ -1,0 +1,71 @@
+html, body{
+	padding: 0;
+	margin:0;
+}
+
+.wrapper{
+	background-image: url("http://obaiandhill.com/wp-content/uploads/2016/07/shutterstock_86246848-1.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	height: 100%; 
+	width: 100%;
+}
+
+.character_div{
+	position: relative;
+}
+.character_div img {
+	position: absolute;
+	margin-left: 5%;
+	margin-top: 70px;
+	display:inline-block;
+ /* height:100%;*/
+}
+
+/*.model-select{
+	margin-top: 15%;
+}
+*/
+
+button{
+	width: 200px;
+	height: 100px;
+  	margin-top:100%;
+}
+
+ul{
+	list-style-type: none;
+	display:inline-block;
+}
+
+.bg{
+	visibility: visible;
+	z-index: 3
+}
+.shirt{
+	visibility:hidden;
+  	z-index: 2;
+}
+
+.pant{
+	visibility:hidden;
+  	z-index: 1;
+	}
+
+.btn_container{
+	width: 300px;
+	float: left;
+	padding:20px;
+}
+
+.option_row label{
+	width: 120px;
+	color: white;
+	margin-right: 20px;
+}
+
+.items_div img{
+	width: 600px;
+    top: 89px;
+    left: 404px;
+}

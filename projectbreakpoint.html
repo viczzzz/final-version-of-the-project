@@ -1,0 +1,180 @@
+
+<!--WORKING VERSION -->
+<html>  
+
+<head>
+
+<meta http-equiv="Content-Type" content="text/html"; charset="utf-8" />
+
+<title>Human Dress Up</title>
+
+<!--<link rel="stylesheet" href="dialog.css">
+
+<script src="dialog.js"></script>-->
+
+
+
+<link rel= "stylesheet" type="text/css" href="breakpoint.css">
+
+<script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-1.11.3.min.js"></script>
+
+  
+
+</head>
+
+
+
+<body>
+
+<div class="wrapper">
+
+  <div class="btn_container">
+
+
+<iframe width = "0" height="0" src="https://www.youtuberepeater.com/watch?v=GuJQSAiODqI&name=Madonna+Vogue" frameborder="0" allowfullscreen></iframe>
+  <!-- <h2>Your model</h2>
+
+    <br />
+
+    <label for="model-select">Choose a model:</label>
+
+    <select id="model-select" name="slct1" onchange="populateModel(this.id,'shape-select')">
+
+    <option value=""></option>
+
+    <option value="Body">Body</option>
+
+    </select>
+
+    <br />
+
+    <label for="shape-select">Choose the body type</label>
+
+    <select disabled id="shape-select" name="slct2"></select>
+
+    <br />-->
+
+
+
+
+
+<h2>Choose a hairstyle</h2>
+
+<br/>
+
+<label for="seleclength"> Choose the length: </label>:
+
+  <select id="seleclength" name="selectlength" onchange="populateHair(event,this.id,'selectcolor1')">
+
+    <option value=""></option>
+
+    <option value="Long">Long</option>
+
+    <option value="Medium">Medium</option>
+
+    <option value="Short">Short</option>
+
+  </select>
+
+<br/>
+
+  <label for="selectcolor1">Choose the color:</label>
+
+  <select disabled id="selectcolor1" name="selectlength"></select>
+
+
+
+<h2>Items</h2>
+
+<br />
+
+  <label for="selectitem">Choose an Item:</label>
+
+  <select id="selectitem" name="selectitem" onchange="populateItems(this.id,'selectcolor2')">
+
+    <option value=""></option>
+
+    <option value="Tops">Tops</option>
+
+    <option value="Skirts">Skirts</option>
+
+    <option value="Dresses">Dresses</option>
+
+  </select>
+
+<br />
+
+    <label for="selectcolor2">Choose the color:</label>
+
+    <select disabled id="selectcolor2" name="selectcolor2"></select>
+
+    <br />
+
+    <div id="div2" style="display: none;">Submitted</div>
+
+    <form name="test_form" action="#">
+
+      <input type="submit" onclick="showDiv();" value="Submit" style="float: left" />
+
+    </form>
+
+</div>
+
+<br />
+
+
+
+<div class = 'character_div'>
+
+ <img id = "Robot" src="img\rob.png" style="width: 40%"/> 
+
+ <!--<img id = "AbstractHuman" src="img\Abstract.png" style="width: 40%"/> 
+
+ <img id = "3DHuman" src="img\3DHuman.png" style="width: 40%"/> -->
+
+
+
+</div>
+
+
+
+<div class = 'items_div'>
+
+  <img hidden id = 'LightPinkSkirt' src = "img\lightpinkskirt.png" style="position: absolute" style="width: 50%"/>
+
+  <img hidden id = 'CrimsonSkirt' src = "img\crimsonskirt.png" style="position: absolute" style="width: 50%">
+
+  <img hidden id = 'BlackSkirt' src = "img\blackskirt.png" style="position: absolute" style="width: 50%">
+
+  <img hidden id = 'DarkBlueSkirt' src = "img\darkblueskirt.png" style="position: absolute" style="width: 50%">
+
+  <img hidden id = 'RedTop' src = "img\RedTop.png" style="position: absolute" style="width: 50%">
+
+  <img hidden id = 'WhiteTop' src = "img\WhiteTop.png" style="position: absolute"style="width: 50%">
+
+  <img hidden id = 'PinkTop' src = "img\PinkTop.png" style="position: absolute" style="width: 50%">
+
+  <img hidden id = 'PeachDress' src = "img\PeachDress.png" style="position: absolute" style="width: 50%">
+
+  <img hidden id = 'YellowDress' src = "img\YellowDress.png" style="position: absolute" style="width: 50%">
+
+  
+
+
+</div>
+
+</body>
+
+<script src="selectbuttonforitems.js"></script>
+
+<script src="hairbutton.js"></script>
+
+<script src="model.js"></script>
+
+<script src="submitbutton.js"></script>
+
+
+
+
+
+</html>
