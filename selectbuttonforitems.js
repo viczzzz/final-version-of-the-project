@@ -13,15 +13,15 @@ function populateItems(s1,s2){
 		s2.disabled = true;
 	} else if(s1.value == "Tops"){
 
-		optionArray = ["|","pink|Pink","red|Red","white|White"];
+		optionArray = ["|","grey|Grey","blue|Blue","red|Red","black|Black","yellow|Yellow"];
 
 	} else if(s1.value == "Skirts"){
 
-		optionArray = ["|","darkblue|DarkBlue","black|Black","lightpink|LightPink","crimson|Crimson"];
+		optionArray = ["|","darkblue|DarkBlue","black|Black","burgundy|Burgundy","red|Red"];
 
 	} else if(s1.value == "Dresses"){
 
-		optionArray = ["|","peach|Peach","yellow|Yellow"];
+		optionArray = ["|","blue|Blue","black|Black","rainbow|Rainbow"];
 
 	}
 

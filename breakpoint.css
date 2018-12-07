@@ -19,13 +19,9 @@ html, body{
 	margin-left: 5%;
 	margin-top: 70px;
 	display:inline-block;
- /* height:100%;*/
+ 
 }
 
-/*.model-select{
-	margin-top: 15%;
-}
-*/
 
 button{
 	width: 200px;
@@ -66,6 +62,41 @@ ul{
 
 .items_div img{
 	width: 600px;
-    top: 89px;
-    left: 404px;
+    top: 87px;
+    left: 399px;
 }
+
+
+.hairstyle_div img{
+	position: absolute;
+	width: 765px;
+	height: 635px;
+	top: 81px;
+	left: 319px;
+	z-index: 9;
+}
+
+
+
+
+.video {
+  position: absolute;
+  top: 550px;
+  right: 0;
+  width: 400px;
+  height: 300px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
